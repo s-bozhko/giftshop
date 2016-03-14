@@ -9,6 +9,18 @@ var gulp = require('gulp'),
 	lr = require('tiny-lr'),
 	server = lr();
 
+<<<<<<< HEAD
+=======
+
+/*gulp.task('scripts', function() {  
+    gulp.src(['assets/js/*.js'])
+        .pipe(browserify())
+        .pipe(concat('main.js'))
+        .pipe(gulp.dest('public/js'))
+        .pipe(refresh(server))
+});*/
+
+>>>>>>> e8b9153a7ad1991e1a803ba07f79cdde0b98d9e5
 gulp.task('connect', function() {
   connect.server({
     root: 'public',
@@ -40,6 +52,16 @@ gulp.task('lr-server', function() {
 gulp.task('default', function() {  
     gulp.run('connect', 'html', 'sass');
 
+<<<<<<< HEAD
+=======
+	/*
+	gulp.run('lr-server', 'scripts', 'sass');
+	
+    gulp.watch('assets/js/**', function(event) {
+        gulp.run('scripts');
+    }) */
+
+>>>>>>> e8b9153a7ad1991e1a803ba07f79cdde0b98d9e5
     gulp.watch('assets/sass/**.scss', function(event) {
         gulp.run('sass');
     }) 

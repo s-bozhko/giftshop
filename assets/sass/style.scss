@@ -125,12 +125,17 @@ nav {
 .nav-main {
 	margin: 13px 0 15px;
 	background-color: $light-blue;
+<<<<<<< HEAD
 	font-size: 0;
 
 	> ul {
 		display: inline-block;
 	}
 	
+=======
+	padding: 0 91px 0 93px;
+
+>>>>>>> e8b9153a7ad1991e1a803ba07f79cdde0b98d9e5
 	> ul > li {
 		display: inline-block;
 		border: 0;
@@ -717,6 +722,10 @@ footer {
 	border-bottom: 1px solid #b9b9b9;
 	padding-top: 21px;
 	padding-bottom: 23px;
+<<<<<<< HEAD
+=======
+	margin-bottom: 50px;
+>>>>>>> e8b9153a7ad1991e1a803ba07f79cdde0b98d9e5
 
 	.main-footer {
 		padding-bottom: 42px;

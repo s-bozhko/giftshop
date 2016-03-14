@@ -2,7 +2,11 @@
   "name": "GiftShop",
   "version": "0.1.0",
   "devDependencies": {
+<<<<<<< HEAD
     "gulp": "^3.9.1",
+=======
+    "gulp": "^3.9.0",
+>>>>>>> e8b9153a7ad1991e1a803ba07f79cdde0b98d9e5
     "gulp-browserify": "^0.5.1",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^2.3.1",

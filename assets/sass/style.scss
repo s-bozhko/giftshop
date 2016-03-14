@@ -125,8 +125,12 @@ nav {
 .nav-main {
 	margin: 13px 0 15px;
 	background-color: $light-blue;
-	padding: 0 91px 0 93px;
+	font-size: 0;
 
+	> ul {
+		display: inline-block;
+	}
+	
 	> ul > li {
 		display: inline-block;
 		border: 0;
@@ -713,7 +717,6 @@ footer {
 	border-bottom: 1px solid #b9b9b9;
 	padding-top: 21px;
 	padding-bottom: 23px;
-	margin-bottom: 50px;
 
 	.main-footer {
 		padding-bottom: 42px;

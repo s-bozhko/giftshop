@@ -9,15 +9,6 @@ var gulp = require('gulp'),
 	lr = require('tiny-lr'),
 	server = lr();
 
-
-/*gulp.task('scripts', function() {  
-    gulp.src(['assets/js/*.js'])
-        .pipe(browserify())
-        .pipe(concat('main.js'))
-        .pipe(gulp.dest('public/js'))
-        .pipe(refresh(server))
-});*/
-
 gulp.task('connect', function() {
   connect.server({
     root: 'public',
@@ -48,13 +39,6 @@ gulp.task('lr-server', function() {
 
 gulp.task('default', function() {  
     gulp.run('connect', 'html', 'sass');
-
-	/*
-	gulp.run('lr-server', 'scripts', 'sass');
-	
-    gulp.watch('assets/js/**', function(event) {
-        gulp.run('scripts');
-    }) */
 
     gulp.watch('assets/sass/**.scss', function(event) {
         gulp.run('sass');

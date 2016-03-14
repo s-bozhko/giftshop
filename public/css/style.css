@@ -732,7 +732,9 @@ nav {
 .nav-main {
   margin: 13px 0 15px;
   background-color: #05aecc;
-  padding: 0 91px 0 93px; }
+  font-size: 0;}
+  .nav-main > ul {
+    display: inline-block;}
   .nav-main > ul > li {
     display: inline-block;
     border: 0;
@@ -1135,8 +1137,7 @@ footer {
   border-top: 1px solid #b9b9b9;
   border-bottom: 1px solid #b9b9b9;
   padding-top: 21px;
-  padding-bottom: 23px;
-  margin-bottom: 50px; }
+  padding-bottom: 23px;}
   footer .main-footer {
     padding-bottom: 42px; }
     footer .main-footer h3 {
